@@ -1,0 +1,310 @@
+
+.gg-Category {
+    background-color: rgb(35, 35, 35);
+    height: 106px;
+    position: relative;
+    transition-duration: 200ms;
+    box-shadow: -30px 0 40px #101010 inset;
+}
+
+.gg-Category:hover {
+    -webkit-background-size: 110%;
+    background-size: 110%;
+    box-shadow: 0 0 0px #101010 inset;
+}
+
+.gg-Category .left-Category {
+    position: absolute;
+    height: auto;
+    display: table;
+    z-index: 2;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+}
+
+.gg-Category .details {
+    padding-left: 110px;
+}
+
+.gg-Category .details .TitleWrap {
+    font-size: 22px;
+    font-weight: normal;
+    margin-bottom: 2px;
+}
+
+.MainCategories {
+    float: right;
+    margin-top: 42px;
+}
+
+
+.category-head {
+    position: relative;
+    float: left;
+}
+
+
+.on-right-title {
+    padding-left: 80px;
+    padding-top: 9px;
+}
+
+.category-head i.dota2 {
+}
+
+.gg-Category i.inside-gosugamers {
+    background: rgba(0, 0, 0, 0) url("http://i97.servimg.com/u/f97/19/55/44/48/4rena_12.png") no-repeat scroll 0 0;
+    height: 48px;
+    left: 30px;
+    width: 48px;
+}
+
+i.dota2 {
+        background-position: -559px 0;
+}
+
+
+i.lol {
+    background-position: -78px 0;
+}
+
+i.counterstrike {
+    background-position: -162px 0;
+}
+
+i.hearthstone {
+    background-position: -242px 0;
+}
+
+i.hots {
+    background-position: -320px 0;
+}
+
+i.inside-gosugamers {
+    background-position: -395px 0;
+}
+
+
+i.starcraft2 {
+    background-position: -636px 0;
+}
+
+#Frame.dota2 {
+    background: rgba(0, 0, 0, 0) url("http://www.gosugamers.net/images/forums/gg-forums-bkg-dota2.jpg") no-repeat scroll 0 0;
+    
+}
+
+#Frame.hots {
+    background: rgba(0, 0, 0, 0) url("http://www.gosugamers.net/images/forums/gg-forums-bkg-hots.jpg") no-repeat scroll 0 0;
+}
+
+#Frame.counterstrike {
+    background: rgba(0, 0, 0, 0) url("http://www.gosugamers.net/images/forums/gg-forums-bkg-csgo.jpg") no-repeat scroll 0 0;
+}
+
+#Frame.lol {
+    background: rgba(0, 0, 0, 0) url("http://www.gosugamers.net/images/forums/gg-forums-bkg-lol.jpg") no-repeat scroll 0 0;
+}
+
+#Frame.wow {
+    background: rgba(0, 0, 0, 0) url("http://i97.servimg.com/u/f97/19/55/44/48/wowful10.jpg") no-repeat scroll 0 0;
+}
+
+#Frame.hearthstone {
+    background: rgba(0, 0, 0, 0) url("http://i97.servimg.com/u/f97/19/55/44/48/hs10.jpg") no-repeat scroll 0 0;
+}
+
+#Frame.overwatch {
+    background: rgba(0, 0, 0, 0) url("http://www.gosugamers.net/images/forums/gg-forums-bkg-overwatch.jpg") no-repeat scroll 0 0;
+}
+
+#Frame.starcraft2 {
+    background: rgba(0, 0, 0, 0) url("http://www.gosugamers.net/images/forums/gg-forums-bkg-sc2.jpg") no-repeat scroll 0 0;
+}
+
+
+.gg-Category.inside-gosugamers .meta-Category {
+    display: none;
+}
+
+.right-Category {
+    position: absolute;
+    right: 100px;
+    width: 200px;
+    height: auto;
+    display: table;
+    z-index: 2;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+}
+
+.meta-Category .Comment-count {
+    float: left;
+}
+
+.meta-Category .Discussion-count {
+    float: left;
+}
+
+.meta-Category {
+    color: #aaa;
+}
+
+
+
+.gg-Category i {
+    background-image: url("http://i97.servimg.com/u/f97/19/55/44/48/4rena_13.png");
+    display: block;
+    height: 80px;
+    left: 15px;
+    position: absolute;
+    top: 12px;
+    width: 80px;
+}
+
+.gg-Category.dota2 {
+    background: rgba(0, 0, 0, 0) url("http://i97.servimg.com/u/f97/19/55/44/48/ov10.jpg") no-repeat scroll 0 0;
+background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.gg-Category.wow {
+    background: rgba(0, 0, 0, 0) url("http://i97.servimg.com/u/f97/19/55/44/48/wow12.jpg") no-repeat scroll 0 0;
+background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.gg-Category.hots {
+    background: rgba(0, 0, 0, 0) url("http://i97.servimg.com/u/f97/19/55/44/48/hots12.jpg") no-repeat scroll 0 0;
+background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.gg-Category.counterstrike {
+    background: rgba(0, 0, 0, 0) url("http://i97.servimg.com/u/f97/19/55/44/48/csgo11.jpg") no-repeat scroll 0 0;
+background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.gg-Category.lol {
+    background: rgba(0, 0, 0, 0) url("http://i97.servimg.com/u/f97/19/55/44/48/lol10.jpg") no-repeat scroll 0 0;
+background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.gg-Category.hearthstone {
+    background: rgba(0, 0, 0, 0) url("http://i97.servimg.com/u/f97/19/55/44/48/hs11.jpg") no-repeat scroll 0 0;
+background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.gg-Category.inside-gosugamers {
+    background: rgba(0, 0, 0, 0) url("http://i97.servimg.com/u/f97/19/55/44/48/4rena10.jpg") no-repeat scroll 0 0;
+    height: 67px;
+background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.gg-Category.overwatch {
+    background: rgba(0, 0, 0, 0) url("http://www.gosugamers.net/images/forums/gg-forums-home-overwatch.jpg") no-repeat scroll 0 0;
+}
+
+.gg-Category.starcraft2 {
+    background: rgba(0, 0, 0, 0) url("http://www.gosugamers.net/images/forums/gg-forums-home-sc2.jpg") no-repeat scroll 0 0;
+}
+
+.right-Category label {
+    display: block;
+    font-size: 10px;
+    line-height: 13px;
+    text-transform: uppercase;
+    padding: 2px 0;
+}
+
+.right-Category .last-title {
+    font-size: 12px;
+    text-transform: none;
+    text-overflow: ellipsis;
+    width: 200px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.right-Category .author {
+    font-size: 10px;
+    text-transform: none;
+}
+
+.right-Category .author a {
+    color: rgb(153, 153, 153);
+}
+
+.inside-gosugamers .details {
+    padding-top: 5px;
+}
+
+.inside-gosugamers.gg-Category .TitleWrap {
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.inside-gosugamers .right-Category .author {
+    display: none;
+}
+
+.gg-Category .left-Category p {
+    display: block;
+    color: #999;
+}
+
+.gg-Category .left-Category .meta-Category {
+    display: none;
+}
+
+.inside-gosugamers.gg-Category .left-Category p {
+    color: rgb(153, 153, 153);
+    display: block;
+    font-size: 11px;
+}
+
+.gg-Category .arrow {
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 1px solid rgb(40, 40, 40);
+    border-radius: 1000px;
+    font-family: inherit;
+    font-size: 14px;
+    height: 40px;
+    line-height: 36px;
+    position: absolute;
+    right: 30px;
+    text-align: center;
+    top: 34px;
+    transition: all 300ms ease 0s;
+    width: 40px;
+}
+
+.arrow div {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 6px 0 6px 10px;
+    border-color: transparent transparent transparent #333;
+    margin-top: 14px;
+    margin-left: 16px;
+    transition: all 300ms;
+}
+
+.inside-gosugamers.gg-Category .arrow {
+    top: 15px;
+}
+
+.gg-Category .arrow:hover {
+    background-color: rgb(0, 0, 0);
+}
+
+.gg-Category:hover .arrow div {
+    border-color: transparent transparent transparent #bbb;
+}
+
