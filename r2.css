@@ -5,7 +5,7 @@
     position: relative;
     transition-duration: 200ms;
     box-shadow: -30px 0 40px #101010 inset;
-margin-bottom: 6px;
+margin-bottom: 4px;
 }
 
 .gg-Category:hover {
@@ -29,9 +29,9 @@ margin-bottom: 6px;
 }
 
 .gg-Category .details .TitleWrap {
-    font-size: 22px;
+    font-size: 16px;
     font-weight: normal;
-    margin-bottom: 2px;
+    margin-bottom: 3px;
 }
 
 .MainCategories {
@@ -191,7 +191,7 @@ background-size: cover;
 }
 
 .gg-Category.wow {
-    background: rgba(0, 0, 0, 0) url("http://i97.servimg.com/u/f97/19/55/44/48/wow13.jpg") no-repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0) url("http://i97.servimg.com/u/f97/19/55/44/48/wow12.jpg") no-repeat scroll 0 0;
 background-size: cover;
     background-repeat: no-repeat;
 }
@@ -221,7 +221,6 @@ background-size: cover;
 }
 
 .gg-Category.inside-gosugamers {
-    background: rgba(0, 0, 0, 0) url("http://i97.servimg.com/u/f97/19/55/44/48/4rena10.jpg") no-repeat scroll 0 0;
     height: 67px;
 background-size: cover;
     background-repeat: no-repeat;
@@ -327,4 +326,5 @@ background-size: cover;
 .gg-Category:hover .arrow div {
     border-color: transparent transparent transparent #bbb;
 }
+
 
