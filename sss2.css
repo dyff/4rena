@@ -5,7 +5,7 @@
     position: relative;
     transition-duration: 200ms;
     box-shadow: -30px 0 40px #101010 inset;
-margin-bottom: 4px;
+margin-bottom: 6px;
 }
 
 .gg-Category:hover {
@@ -42,11 +42,21 @@ margin-bottom: 4px;
 .pun a:link
 {
     color: #f1f1f1;
+    -webkit-transition: color 300ms ease;
+    -moz-transition: color 300ms ease;
+    -ms-transition: color 300ms ease;
+    -o-transition: color 300ms ease;
+    transition: color 300ms ease;
 }
 
 .pun a:link:hover
 {
     color: #ef4836;
+    -webkit-transition: color 300ms ease;
+    -moz-transition: color 300ms ease;
+    -ms-transition: color 300ms ease;
+    -o-transition: color 300ms ease;
+    transition: color 300ms ease;
 }
 
 .category-head {
