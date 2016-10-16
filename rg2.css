@@ -89,6 +89,7 @@ i.lol {
     background-position: -78px 0;
 }
 
+
 i.counterstrike {
     background-position: -162px 0;
 }
@@ -106,7 +107,7 @@ i.inside-gosugamers {
 }
 
 
-i.starcraft2 {
+i.steam {
     background-position: -636px 0;
 }
 
@@ -230,8 +231,8 @@ background-size: cover;
     background: rgba(0, 0, 0, 0) url("http://www.gosugamers.net/images/forums/gg-forums-home-overwatch.jpg") no-repeat scroll 0 0;
 }
 
-.gg-Category.starcraft2 {
-    background: rgba(0, 0, 0, 0) url("http://www.gosugamers.net/images/forums/gg-forums-home-sc2.jpg") no-repeat scroll 0 0;
+.gg-Category.steam {
+    background: rgba(0, 0, 0, 0) url("http://i97.servimg.com/u/f97/19/55/44/48/steamt10.jpg") no-repeat scroll 0 0;
 }
 
 .right-Category label {
